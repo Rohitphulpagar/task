@@ -296,7 +296,7 @@ h2 {
     width: 50%;
   }
   .poster img {
-    height: 100%;
+    height: 99.5%;
     width: 100%;
   }
 }
@@ -341,27 +341,29 @@ h2 {
   padding-left: 2vw;
 }
 .chart {
-  width: 20%;
-  padding-top: 15vw;
+  width: 30%;
+  padding-top: 12vw;
 }
 .charts {
+  height: 52%;
   background-color: #ff7171;
 }
 .name {
   padding-top: 1vw;
   padding-left: 1vw;
-  font-size: 1vw;
-  letter-spacing: 0.1vw;
+  font-size: 1.2vw;
+  letter-spacing: 0.2vw;
 }
 .names {
   padding-top: 1vw;
   padding-left: 1vw;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 700;
-  letter-spacing: 0.2vw;
+  letter-spacing: 0.5vw;
 }
 .click {
   display: flex;
+  margin-top: 1vw;
 }
 .clicks {
   padding-left: 1vw;
@@ -373,4 +375,159 @@ h2 {
   padding-left: 1vw;
   height: 3vw;
   width: 3vw;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .second {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(
+      to bottom right,
+      #ffdcc7 20%,
+      #ffd2d1 30%,
+      #ffc5de 50%,
+      #ffc5de 100%
+    );
+  }
+  .imgs {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
+  .hotel1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    padding-top: 15vw;
+  }
+  .img1 {
+    height: 30vw;
+    width: 20vw;
+  }
+  .img2 {
+    padding-top: 2vw;
+    height: 30vw;
+    width: 20vw;
+  }
+  .img3 {
+    padding-top: 15vw;
+    height: 62vw;
+    width: 18vw;
+    padding-left: 2vw;
+  }
+  .chart {
+    width: 40%;
+    padding-left: 5vw;
+    padding-top: 32vw;
+  }
+  .charts {
+    height: 25%;
+    background-color: #ff7171;
+  }
+  .name {
+    padding-top: 2vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+    letter-spacing: 0.3vw;
+  }
+  .names {
+    padding-top: 2vw;
+    padding-left: 1vw;
+    font-size: 4vw;
+    font-weight: 700;
+    letter-spacing: 0.5vw;
+  }
+  .click {
+    display: flex;
+    margin-top: 2vw;
+  }
+  .clicks {
+    padding-left: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+    font-size: 3vw;
+  }
+  .click img {
+    padding-left: 1vw;
+    height: 5vw;
+    width: 5vw;
+  }
+}
+@media (max-width: 767px) {
+  .second {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(
+      to bottom right,
+      #ffdcc7 20%,
+      #ffd2d1 30%,
+      #ffc5de 50%,
+      #ffc5de 100%
+    );
+  }
+  .imgs {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+  }
+  .hotel1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2vw;
+    padding-top: 15vw;
+  }
+  .img1 {
+    height: 35vw;
+    width: 27vw;
+  }
+  .img2 {
+    padding-top: 2vw;
+    height: 35vw;
+    width: 27vw;
+  }
+  .img3 {
+    padding-top: 15vw;
+    height: 72vw;
+    width: 25vw;
+    padding-left: 2vw;
+  }
+  .chart {
+    width: 35%;
+    padding-top: 35vw;
+  }
+  .charts {
+    height: 15%;
+    background-color: #ff7171;
+  }
+  .name {
+    padding-top: 2vw;
+    padding-left: 1vw;
+    font-size: 2.2vw;
+    letter-spacing: 0.2vw;
+  }
+  .names {
+    padding-top: 2vw;
+    padding-left: 1vw;
+    font-size: 3.5vw;
+    font-weight: 700;
+    letter-spacing: 0.5vw;
+  }
+  .click {
+    display: flex;
+    margin-top: 2vw;
+  }
+  .clicks {
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 2.5vw;
+  }
+  .click img {
+    padding-left: 1vw;
+    height: 6vw;
+    width: 6vw;
+  }
 }
